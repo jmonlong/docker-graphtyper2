@@ -29,5 +29,5 @@ RUN pip install --upgrade pip
 
 RUN pip install awscli
 
-RUN wget --no-check-certificate https://github.com/DecodeGenetics/graphtyper/releases/download/v2.0/graphtyper \
+RUN wget --no-check-certificate https://github.com/DecodeGenetics/graphtyper/releases/download/v2.1/graphtyper \
         && chmod a+x graphtyper && mv graphtyper /bin/
